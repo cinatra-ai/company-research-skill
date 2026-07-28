@@ -1,0 +1,17 @@
+{
+  "name": "@cinatra-ai/company-research-skill",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "description": "Company-research methodology from Cinatra's assistant skill set — check the workspace database before searching the web, enrich a company and its key decision makers with firmographics and contact details, score every contact for ICP fit from the user's workspace context, and present a structured company summary with a decision-maker table and a recommended play. Extracted from @cinatra-ai/assistant-skills (cinatra#2090).",
+  "type": "module",
+  "files": [
+    "skills"
+  ],
+  "cinatra": {
+    "apiVersion": "cinatra.ai/v1",
+    "kind": "skill",
+    "displayName": "Company Research Skill",
+    "skillRole": "injectable",
+    "dependencies": []
+  }
+}
